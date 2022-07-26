@@ -33,7 +33,7 @@
   :Olical/aniseed {:branch :develop}
 
   ;; theme
-  :projekt0n/github-nvim-theme {:mod :theme}
+  ;:projekt0n/github-nvim-theme {:mod :theme}
   :kyazdani42/nvim-web-devicons {}
 
   ;; status line
@@ -74,7 +74,7 @@
   :junegunn/goyo.vim {}
   :junegunn/limelight.vim {}
   :folke/trouble.nvim {}
-  :folke/tokyonight.nvim {}
+  :folke/tokyonight.nvim {:mod :tokyonight}
   :folke/which-key.nvim {}
   :kyazdani42/nvim-tree.lua {}
   :nvim-lua/plenary.nvim {}

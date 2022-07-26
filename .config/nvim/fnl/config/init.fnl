@@ -9,8 +9,12 @@
 (set nvim.g.mapleader " ")
 (set nvim.g.maplocalleader ",")
 
-;don't wrap lines
+;soft wrap lines
 (nvim.ex.set :linebreak)
+
+;show line numbers
+(nvim.ex.set :number)
+(nvim.ex.set :relativenumber)
 
 ;sets a nvim global options
 (let [options
