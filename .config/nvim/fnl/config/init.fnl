@@ -10,7 +10,7 @@
 (set nvim.g.maplocalleader ",")
 
 ;don't wrap lines
-(nvim.ex.set :nowrap)
+(nvim.ex.set :linebreak)
 
 ;sets a nvim global options
 (let [options

@@ -69,4 +69,15 @@
                                 :hrsh7th/cmp-nvim-lsp
                                 :hrsh7th/cmp-vsnip
                                 :PaterJason/cmp-conjure]
-                     :mod :cmp})
+                     :mod :cmp}
+  ;; Scott's plugins
+  :junegunn/goyo.vim {}
+  :junegunn/limelight.vim {}
+  :folke/trouble.nvim {}
+  :folke/tokyonight.nvim {}
+  :folke/which-key.nvim {}
+  :kyazdani42/nvim-tree.lua {}
+  :nvim-lua/plenary.nvim {}
+  :TimUntersberger/neogit {}
+  :romgrk/barbar.nvim {}
+	)
