@@ -52,3 +52,5 @@
             :snippet {:expand (fn [args]
                                 (luasnip.lsp_expand args.body))}
             :sources cmp-srcs})
+
+(cmp.setup.filetype :markdown {:completion {:autocomplete false}})
