@@ -55,6 +55,7 @@
   :tpope/vim-surround {}
 
   ;; parsing system
+  ; :p00f/nvim-ts-rainbow {:requires :nvim-treesitter/nvim-treesitter}
   :nvim-treesitter/nvim-treesitter {:run ":TSUpdate"
                                     :mod :treesitter}
 
@@ -80,4 +81,5 @@
   :nvim-lua/plenary.nvim {}
   :TimUntersberger/neogit {}
   :romgrk/barbar.nvim {}
+  :frazrepo/vim-rainbow {:mod :rainbow} ;;XXX: update, set nvim.g.rainbow_active to 1
 	)
