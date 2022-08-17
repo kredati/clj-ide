@@ -82,4 +82,7 @@
   :TimUntersberger/neogit {}
   :romgrk/barbar.nvim {}
   :frazrepo/vim-rainbow {:mod :rainbow} ;;XXX: update, set nvim.g.rainbow_active to 1
+
+  ;; Scott's rust plugins
+  :simrat39/rust-tools.nvim {}
 	)
